@@ -17,6 +17,6 @@
 ## Herramientas Utilizadas 🛠️
 *  [C# v9.0](https://docs.microsoft.com/es-es/dotnet/csharp/whats-new/csharp-9) - Lenguaje de Programación
 *  [Microsoft Visual Studio Code v2019](https://visualstudio.microsoft.com/es/vs/) - Editor de Codigo Fuente
-*  [Micosoft Asp.Net "Latest Version"](https://dotnet.microsoft.com/apps/aspnet) - Framework
+*  [Microsoft Asp.Net "Latest Version"](https://dotnet.microsoft.com/apps/aspnet) - Framework
 *  [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Dependencias
 *  [SQL Server v2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - SGBD
