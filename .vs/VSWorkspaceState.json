@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\WebAppBD",
-    "\\WebAppBD\\Views",
-    "\\WebAppBD\\Views\\Records",
-    "\\WebAppBD\\Views\\Shared"
+    "\\WebAppBD\\Views"
   ],
-  "SelectedNode": "\\WebAppBD\\Views\\Records\\Index.cshtml",
+  "SelectedNode": "\\WebAppBD\\Views\\Records",
   "PreviewInSolutionExplorer": false
 }

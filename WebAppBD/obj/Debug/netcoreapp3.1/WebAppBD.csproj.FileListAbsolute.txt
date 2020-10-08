@@ -1270,3 +1270,4 @@ C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreap
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\WebAppBD.pdb
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\WebAppBD.genruntimeconfig.cache
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Records\Index.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\MovieArchive\Index.cshtml.g.cs

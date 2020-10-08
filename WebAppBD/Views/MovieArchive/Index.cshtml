@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ficha de Usuario</title>
+    <title>Peliculas Prestadas</title>
 
     <!-- Custom fonts for this template-->
     <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -36,31 +36,37 @@
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">¡Ingrese Nueva Ficha!</h1>
+                                <h1 class="h4 text-gray-900 mb-4">¡Ingrese los detalles de la pelicula!</h1>
                             </div>
                             <form class="user">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="number" class="form-control form-control-user" id="CodigoSocio" placeholder="Ingrese el Codigo del Socio">
+                                        <input type="number" class="form-control form-control-user" id="IdPeliPrestada" placeholder="Ingrese el Id de la Pelicula">
                                     </div>
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="Nombre" placeholder="Ingrese el Nombre">
+                                        <input type="datetime" class="form-control form-control-user" id="FechaPrestamo" placeholder="Ingrese la fecha del prestamo de la pelicula">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="Apellido1" placeholder="Ingrese el Primer Apellido">
+                                        <input type="text" class="form-control form-control-user" id="Titulo" placeholder="Ingrese el Titulo de la Pelicula">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="Apellido2" placeholder="Ingrese el Segundo Apellido">
+                                        <input type="time" class="form-control form-control-user" id="Duracion" placeholder="Ingrese la duracion de la pelicula">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="Direccion" placeholder="Ingrese la direccion">
+                                        <input type="number" class="form-control form-control-user" id="NumCintas" placeholder="Ingrese el # de cintas">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="Telefono" placeholder="Ingrese # de telefono">
+                                        <input type="text" class="form-control form-control-user" id="Genero" placeholder="Ingrese el genero de la pelicula">
                                     </div>
-                                </div>                  
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" id="Actores" placeholder="Ingrese los actores de la pelicula">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" id="Directores" placeholder="Ingrese los directores de la pelicula">
+                                    </div>
+                                </div>
                                 <a class="btn btn-primary btn-user btn-block">
-                                    Ingresar Ficha
+                                    Registrar Pelicula
                                 </a>
                                 <hr>
                             </form>
@@ -91,3 +97,4 @@
 </body>
 
 </html>
+
