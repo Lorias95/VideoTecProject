@@ -6,12 +6,12 @@
 
 ## Información del proyecto
 <p align="justify">
-    Este proyecto tiene como fin desarrollar desarrollar una aplicación de registro de actividades y una base de datos 
+    El proyecto tiene como objetivo desarrollar una aplicación de registro de actividades y una base de datos 
     para la empresa VIDEOTEC, con el fin de solucionar problemas con el manejo de la información, utilizando el lenguaje de programación C# 
     y el SGBS SQL Server para el desarrollo del proyecto. VIDEOTEC, es una empresa de préstamos de películas, el cual ha tenido un crecimiento de socios muy acelerado. 
     Como consecuencia de dicho incremento de socios, esto está provocando problemas en el manejo de la información de la empresa. Debido a este problema, 
     el equipo ha logrado identificar como principal requerimiento por parte de la empresa VIDEOTEC es poder manejar sus respectivos datos a través de un sistema informático
-    y una base de datos relacional, la información relevante de las operaciones que se realizan en la empresa. Cambio    
+    y una base de datos relacional, la información relevante de las operaciones que se realizan en la empresa.    
 </p>
 
 ## Herramientas Utilizadas 🛠️
