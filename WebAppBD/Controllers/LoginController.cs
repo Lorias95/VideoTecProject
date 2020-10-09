@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAppBD.Models;
 
 
@@ -24,16 +25,17 @@ namespace WebAppBD.Controllers
         {
             return View();
         }
-
-        public IActionResult GetUsuario(string Correo, string Password)
+        [HttpPost]
+        public IActionResult Login(string Correo, string Password)
         {
+            
             //DbSet<Usuario> Usuario
             var usuario = _context.Usuario.Where(s => s.Correo == Correo && s.Password == Password);
             if (usuario.Any())
             {
                 if (usuario.Where(s => s.Correo == Correo && s.Password == Password).Any())
                 {
-                    return Json(new { status = true, message = "Bienvenido" });
+                    return Json(new { status = true, message = "Bienvenido a VideoTec" });
                 }
                 else
                 {

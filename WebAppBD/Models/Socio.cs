@@ -5,16 +5,16 @@ namespace WebAppBD.Models
 {
     public partial class Socio
     {
-        public Socio()
+        public  Socio()
         {
             ArchiFichaSocio = new HashSet<ArchiFichaSocio>();
             Ficha = new HashSet<Ficha>();
         }
 
-        public int CodigoSocio { get; set; }
+        public int Codigo_Socio { get; set; }
         public string Nombre { get; set; }
-        public string Apellido1 { get; set; }
-        public string Apellido2 { get; set; }
+        public string Apellido_1 { get; set; }
+        public string Apellido_2 { get; set; }
         public string Direccion { get; set; }
         public int Telefono { get; set; }
 

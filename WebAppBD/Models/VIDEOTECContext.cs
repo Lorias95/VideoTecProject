@@ -255,17 +255,17 @@ namespace WebAppBD.Models
 
             modelBuilder.Entity<Socio>(entity =>
             {
-                entity.HasKey(e => e.CodigoSocio);
+                entity.HasKey(e => e.Codigo_Socio);
 
-                entity.Property(e => e.CodigoSocio).HasColumnName("Codigo_Socio");
+                entity.Property(e => e.Codigo_Socio).HasColumnName("Codigo_Socio");
 
-                entity.Property(e => e.Apellido1)
+                entity.Property(e => e.Apellido_1)
                     .IsRequired()
                     .HasColumnName("Apellido_1")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Apellido2)
+                entity.Property(e => e.Apellido_2)
                     .IsRequired()
                     .HasColumnName("Apellido_2")
                     .HasMaxLength(50)
