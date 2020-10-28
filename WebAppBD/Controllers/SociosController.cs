@@ -9,23 +9,22 @@ using WebAppBD.Models;
 
 namespace WebAppBD.Controllers
 {
-    public class PartnesController : Controller
+    public class SociosController : Controller
     {
         private readonly VIDEOTECContext _context;
 
-        public PartnesController(VIDEOTECContext context)
+        public SociosController(VIDEOTECContext context)
         {
             _context = context;
         }
 
-        // GET: Partnes
-        
+        // GET: Socios
         public async Task<IActionResult> Index()
         {
             return View(await _context.Socio.ToListAsync());
         }
 
-        // GET: Partnes/Details/5
+        // GET: Socios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,13 +42,13 @@ namespace WebAppBD.Controllers
             return View(socio);
         }
 
-        // GET: Partnes/Create
+        // GET: Socios/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Partnes/Create
+        // POST: Socios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -65,7 +64,7 @@ namespace WebAppBD.Controllers
             return View(socio);
         }
 
-        // GET: Partnes/Edit/5
+        // GET: Socios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,7 +80,7 @@ namespace WebAppBD.Controllers
             return View(socio);
         }
 
-        // POST: Partnes/Edit/5
+        // POST: Socios/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -116,7 +115,7 @@ namespace WebAppBD.Controllers
             return View(socio);
         }
 
-        // GET: Partnes/Delete/5
+        // GET: Socios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -134,7 +133,7 @@ namespace WebAppBD.Controllers
             return View(socio);
         }
 
-        // POST: Partnes/Delete/5
+        // POST: Socios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

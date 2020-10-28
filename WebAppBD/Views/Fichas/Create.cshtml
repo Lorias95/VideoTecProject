@@ -1,0 +1,61 @@
+﻿@model WebAppBD.Models.Ficha
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+    <h1>Nuevo registro de ficha</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label">Fecha:</label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumCinta" class="control-label">Número de cinta:</label>
+                <input asp-for="NumCinta" class="form-control" />
+                <span asp-validation-for="NumCinta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pelicula" class="control-label">Película:</label>
+                <input asp-for="Pelicula" class="form-control" />
+                <span asp-validation-for="Pelicula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoSocio" class="control-label">Código de socio:</label>
+                <select asp-for="CodigoSocio" class ="form-control" asp-items="ViewBag.CodigoSocio"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPeliPrestada" class="control-label">Id de película prestada:</label>
+                <select asp-for="IdPeliPrestada" class ="form-control" asp-items="ViewBag.IdPeliPrestada"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPeliDevuelta" class="control-label">Id de película devuelta:</label>
+                <select asp-for="IdPeliDevuelta" class ="form-control" asp-items="ViewBag.IdPeliDevuelta"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPeliPorTitulo" class="control-label">Id de película por título:</label>
+                <select asp-for="IdPeliPorTitulo" class ="form-control" asp-items="ViewBag.IdPeliPorTitulo"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdFichaSocio" class="control-label">Id de ficha socio:</label>
+                <select asp-for="IdFichaSocio" class ="form-control" asp-items="ViewBag.IdFichaSocio"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a class="btn btn-success" asp-action="Index">Atrás</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
