@@ -1,0 +1,54 @@
+﻿@model WebAppBD.Models.ArchiPeliPorTitulo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ArchiPeliPorTitulo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Duracion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Duracion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumCintas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumCintas)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Genero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Genero)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actores)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actores)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Directores)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Directores)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" a asp-action="Edit" asp-route-id="@Model.IdPeliPorTitulo">Edit</a> |
+    <a class="btn btn-success" asp-action="Index">Atrás</a>
+</div>

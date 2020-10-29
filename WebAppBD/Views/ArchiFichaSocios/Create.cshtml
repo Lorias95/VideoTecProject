@@ -1,0 +1,48 @@
+﻿@model WebAppBD.Models.ArchiFichaSocio
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ArchiFichaSocio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GeneroFavorito" class="control-label"></label>
+                <input asp-for="GeneroFavorito" class="form-control" />
+                <span asp-validation-for="GeneroFavorito" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ActoresFavorito" class="control-label"></label>
+                <input asp-for="ActoresFavorito" class="form-control" />
+                <span asp-validation-for="ActoresFavorito" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DirectoresFavorito" class="control-label"></label>
+                <input asp-for="DirectoresFavorito" class="form-control" />
+                <span asp-validation-for="DirectoresFavorito" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoSocio" class="control-label"></label>
+                <select asp-for="CodigoSocio" class ="form-control" asp-items="ViewBag.CodigoSocio"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a class="btn btn-success" asp-action="Index">Atrás</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

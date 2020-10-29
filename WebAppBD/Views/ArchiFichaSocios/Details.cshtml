@@ -1,0 +1,42 @@
+﻿@model WebAppBD.Models.ArchiFichaSocio
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ArchiFichaSocio</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GeneroFavorito)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GeneroFavorito)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ActoresFavorito)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ActoresFavorito)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DirectoresFavorito)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DirectoresFavorito)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodigoSocioNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodigoSocioNavigation.Apellido_1)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" a asp-action="Edit" asp-route-id="@Model.IdFichaSocio">Edit</a> |
+    <a class="btn btn-success" asp-action="Index">Atrás</a>
+</div>
