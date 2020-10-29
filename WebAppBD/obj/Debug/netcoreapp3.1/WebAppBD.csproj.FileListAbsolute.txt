@@ -1300,11 +1300,6 @@ C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\bin\Debug\netcoreap
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.SqlServer.dll
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Partnes\Create.cshtml.g.cs
-C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Partnes\Delete.cshtml.g.cs
-C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Partnes\Details.cshtml.g.cs
-C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Partnes\Edit.cshtml.g.cs
-C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Partnes\Index.cshtml.g.cs
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\WebAppBD.csproj.CoreCompileInputs.cache
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\WebAppBD.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\WebAppBD.MvcApplicationPartsAssemblyInfo.cache
@@ -1779,3 +1774,13 @@ C:\Users\gollo\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Raz
 C:\Users\gollo\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Details.cshtml.g.cs
 C:\Users\gollo\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Edit.cshtml.g.cs
 C:\Users\gollo\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Index.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Create.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Delete.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Details.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Edit.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Fichas\Index.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Socios\Create.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Socios\Delete.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Socios\Details.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Socios\Edit.cshtml.g.cs
+C:\Users\Xinia Aguilar\Source\Repos\VideoTecProject\WebAppBD\obj\Debug\netcoreapp3.1\Razor\Views\Socios\Index.cshtml.g.cs
