@@ -7,59 +7,60 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Titulo)
+                Titulo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Duracion)
+                Duracion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumCintas)
+                Numero Cintas
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Genero)
+                Genero
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Actores)
+                Actores
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Directores)
+                Directores
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Duracion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumCintas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Actores)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Directores)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Duracion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumCintas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genero)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Actores)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Directores)
+                </td>
+                <td>
+                    <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Edit</a> |
+                    <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Details</a> |
+                    <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

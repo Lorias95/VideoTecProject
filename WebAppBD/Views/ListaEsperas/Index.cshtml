@@ -4,22 +4,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Registros de Lista en Espera</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
-<table class="table">
+<table class="table table-striped" color="blue">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.CantidadSocios)
+                Cantidad Socios
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TiempoEspera)
+                Tiempo Espera
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdFichaNavigation)
+                IdFicha
             </th>
             <th></th>
         </tr>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.IdFichaNavigation.Pelicula)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdListaEspera">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdListaEspera">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdListaEspera">Delete</a>
+                <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdListaEspera">Edit</a> |
+                <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdListaEspera">Details</a> |
+                <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdListaEspera">Delete</a>
             </td>
         </tr>
 }

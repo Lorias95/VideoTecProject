@@ -4,34 +4,34 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+    <h1>Registro de Peliculas Devueltas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FechaDevolucion)
+                Fecha Devolucion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Titulo)
+                Titulo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Duracion)
+                Duración
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumCintas)
+                Numero Cintas
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Genero)
+                Genero
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Actores)
+                Actores
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Directores)
+                Directores
             </th>
             <th></th>
         </tr>
@@ -61,9 +61,9 @@
                 @Html.DisplayFor(modelItem => item.Directores)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPeliDevuelta">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPeliDevuelta">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPeliDevuelta">Eliminar</a>
+                <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdPeliDevuelta">Editar</a> |
+                <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdPeliDevuelta">Detalles</a> |
+                <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdPeliDevuelta">Eliminar</a>
             </td>
         </tr>
 }

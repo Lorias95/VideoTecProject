@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAppBD.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -26,9 +28,15 @@ namespace WebAppBD.Controllers
             return View();
         }
         [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public IActionResult Login(string Correo, string Password)
         {
-            
+            //if (!ModelState.IsValid)
+            //{
+            //    return (Model);
+            //}
+
             //DbSet<Usuario> Usuario
             var usuario = _context.Usuario.Where(s => s.Correo == Correo && s.Password == Password);
             if (usuario.Any())
