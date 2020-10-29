@@ -3428,7 +3428,7 @@ chart-line:
       - activity
       - analytics
       - chart
-      - dashboard
+      - Escritorio
       - gain
       - graph
       - increase
@@ -4388,7 +4388,7 @@ columns:
   search:
     terms:
       - browser
-      - dashboard
+      - Escritorio
       - organize
       - panes
       - split
@@ -18412,7 +18412,7 @@ tachometer-alt:
   label: Alternate Tachometer
   search:
     terms:
-      - dashboard
+      - Escritorio
       - fast
       - odometer
       - speed

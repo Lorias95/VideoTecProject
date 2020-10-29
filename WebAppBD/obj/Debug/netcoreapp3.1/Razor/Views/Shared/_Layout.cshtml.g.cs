@@ -175,11 +175,11 @@ using WebAppBD.Models;
 
         <!-- Sidebar -->
         <ul class=""navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"" id=""accordionSidebar"">
-            <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Escritorio -->
             <li class=""nav-item active"">
                 <a class=""nav-link"" href=""index.html"">
                     <i class=""fas fa-fw fa-tachometer-alt""></i>
-                    <span>Dashboard</span>
+                    <span>Escritorio</span>
                 </a>
             </li>
             <!-- Nav Item - Pages Collapse Menu -->
