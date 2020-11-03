@@ -3,6 +3,7 @@
     "",
     "\\WebAppBD",
     "\\WebAppBD\\Views",
+    "\\WebAppBD\\Views\\MovieArchive",
     "\\WebAppBD\\Views\\Shared"
   ],
   "SelectedNode": "\\README.md",
