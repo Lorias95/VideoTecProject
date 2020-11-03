@@ -13,13 +13,13 @@
     <thead>
         <tr>
             <th>
-                Cantidad Socios
+                Cantidad Socios:
             </th>
             <th>
-                Tiempo Espera
+                Tiempo Espera:
             </th>
             <th>
-                IdFicha
+                IdFicha:
             </th>
             <th></th>
         </tr>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.IdFichaNavigation.Pelicula)
             </td>
             <td>
-                <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdListaEspera">Edit</a> |
-                <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdListaEspera">Details</a> |
-                <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdListaEspera">Delete</a>
+                <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdListaEspera">Edit</a> |
+                <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdListaEspera">Details</a> |
+                <a class="btn btn-danger"   asp-action="Delete" asp-route-id="@item.IdListaEspera">Delete</a>
             </td>
         </tr>
 }

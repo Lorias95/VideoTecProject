@@ -13,25 +13,25 @@
     <thead>
         <tr>
             <th>
-                Nombre
+                Nombre:
             </th>
             <th>
-                Apellido1
+                Apellido:
             </th>
             <th>
-                Contraseña
+                Password:
             </th>
             <th>
-                Correo
+                Correo:
             </th>
             <th>
-                Cedula
+                Cedula:
             </th>
             <th>
-                Estado
+                Estado:
             </th>
             <th>
-                Rol
+                Rol:
             </th>
             <th></th>
         </tr>
@@ -46,27 +46,24 @@
                 @Html.DisplayFor(modelItem => item.Apellido1)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Apellido2)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Password)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Correo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdPersona)
+                @Html.DisplayFor(modelItem => item.Cedula)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Imagen)
+                @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdRolNavigation.IdRol)
             </td>
             <td>
-                <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |
-                <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a> |
-                <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |
+                <a class="btn btn-warning" asp-action="Details" asp-route-id="@item.IdUsuario">Details</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
             </td>
         </tr>
 }

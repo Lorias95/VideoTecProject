@@ -17,16 +17,10 @@
             @Html.DisplayFor(model => model.Nombre)
         </dd>
         <dt class = "col-sm-2">
-            Apellido1:
+            Apellido:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Apellido1)
-        </dd>
-        <dt class = "col-sm-2">
-           Apellido2:
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Apellido2)
         </dd>
         <dt class = "col-sm-2">
             Password:
@@ -41,16 +35,16 @@
             @Html.DisplayFor(model => model.Correo)
         </dd>
         <dt class = "col-sm-2">
-            IdPersona:
+            Cedula:
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdPersona)
+            @Html.DisplayFor(model => model.Cedula)
         </dd>
         <dt class = "col-sm-2">
             Estado:
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Imagen)
+            @Html.DisplayFor(model => model.Estado)
         </dd>
         <dt class = "col-sm-2">
             Rol:
@@ -61,6 +55,6 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-primary" a asp-action="Edit" asp-route-id="@Model.IdUsuario">Edit</a> |
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.IdUsuario">Edit</a> |
     <a class="btn btn-success" asp-action="Index">Atrás</a>
 </div>

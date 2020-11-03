@@ -13,22 +13,22 @@
     <thead>
         <tr>
             <th>
-                Titulo
+                Titulo:
             </th>
             <th>
-                Duracion
+                Duracion:
             </th>
             <th>
-                Numero Cintas
+                Numero Cintas:
             </th>
             <th>
-                Genero
+                Genero:
             </th>
             <th>
-                Actores
+                Actor:
             </th>
             <th>
-                Directores
+                Director:
             </th>
             <th></th>
         </tr>
@@ -56,9 +56,9 @@
                     @Html.DisplayFor(modelItem => item.Directores)
                 </td>
                 <td>
-                    <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Edit</a> |
-                    <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Details</a> |
-                    <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Delete</a>
+                    <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Edit</a> |
+                    <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Details</a> |
+                    <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Delete</a>
                 </td>
             </tr>
         }

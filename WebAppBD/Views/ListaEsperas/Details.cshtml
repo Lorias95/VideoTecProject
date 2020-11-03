@@ -10,20 +10,20 @@
     <h4>ListaEspera</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CantidadSocios)
+        <dt class="col-sm-2">
+            Cantidad Socios:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CantidadSocios)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TiempoEspera)
+        <dt class="col-sm-2">
+            Tiempo Espera:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TiempoEspera)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdFichaNavigation)
+        <dt class="col-sm-2">
+            IdFicha:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdFichaNavigation.Pelicula)
@@ -31,6 +31,6 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-primary" a asp-action="Edit" asp-route-id="@Model.IdListaEspera">Edit</a> |
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.IdListaEspera">Edit</a> |
     <a class="btn btn-success" asp-action="Index">Atrás</a>
 </div>

@@ -248,9 +248,9 @@ namespace WebAppBD.Models
             {
                 entity.HasKey(e => e.IdRol);
 
-                entity.Property(e => e.IdRol).ValueGeneratedNever();
+                entity.Property(e => e.IdRol).HasColumnName("IdRol");
 
-                entity.Property(e => e.Descripcion).HasMaxLength(50);
+                entity.Property(e => e.Descripcion).HasColumnName("Descripcion");
             });
 
             modelBuilder.Entity<Socio>(entity =>
@@ -286,17 +286,13 @@ namespace WebAppBD.Models
             {
                 entity.HasKey(e => e.IdUsuario);
 
-                entity.Property(e => e.IdUsuario).ValueGeneratedNever();
+                entity.Property(e => e.IdUsuario).HasColumnName("IdUsuario");
 
-                entity.Property(e => e.Apellido1).HasMaxLength(50);
+                entity.Property(e => e.Apellido1).HasColumnName("Apellido1");
 
-                entity.Property(e => e.Apellido2).HasMaxLength(50);
+                entity.Property(e => e.Correo).HasColumnName("Correo");
 
-                entity.Property(e => e.Correo).HasMaxLength(50);
-
-                entity.Property(e => e.Nombre).HasMaxLength(50);
-
-                entity.Property(e => e.Password).HasMaxLength(50);
+                entity.Property(e => e.Estado).HasColumnName("Estado");
 
                 entity.HasOne(d => d.IdRolNavigation)
                     .WithMany(p => p.Usuario)

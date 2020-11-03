@@ -13,16 +13,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.GeneroFavorito)
+                Genero Favorito
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ActoresFavorito)
+                Actores Favorito
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DirectoresFavorito)
+                Directores Favorito
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodigoSocioNavigation)
+                Nombre Socio
             </th>
             <th></th>
         </tr>
@@ -43,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.CodigoSocioNavigation.Apellido_1)
             </td>
             <td>
-                <a class="btn btn-success" a asp-action="Edit" asp-route-id="@item.IdFichaSocio">Edit</a> |
-                <a class="btn btn-warning" a asp-action="Details" asp-route-id="@item.IdFichaSocio">Details</a> |
-                <a class="btn btn-danger" a asp-action="Delete" asp-route-id="@item.IdFichaSocio">Delete</a>
+                <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdFichaSocio">Edit</a> |
+                <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdFichaSocio">Details</a> |
+                <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdFichaSocio">Delete</a>
             </td>
         </tr>
 }

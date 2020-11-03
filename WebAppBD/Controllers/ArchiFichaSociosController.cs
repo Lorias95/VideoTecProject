@@ -47,7 +47,7 @@ namespace WebAppBD.Controllers
         // GET: ArchiFichaSocios/Create
         public IActionResult Create()
         {
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Apellido_1");
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace WebAppBD.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Apellido_1", archiFichaSocio.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", archiFichaSocio.CodigoSocio);
             return View(archiFichaSocio);
         }
 
@@ -81,7 +81,7 @@ namespace WebAppBD.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Apellido_1", archiFichaSocio.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", archiFichaSocio.CodigoSocio);
             return View(archiFichaSocio);
         }
 
@@ -117,7 +117,7 @@ namespace WebAppBD.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Apellido_1", archiFichaSocio.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", archiFichaSocio.CodigoSocio);
             return View(archiFichaSocio);
         }
 
