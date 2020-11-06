@@ -847,7 +847,7 @@ box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.08), 0px 6px 18px 0px rgba(0, 0, 0,
 .btn.btn-fullwidth {width:100%;min-width:300px;}
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {opacity: 1;}
 .btn-color {color: #fff;background-color: #0fe1d4;}
-.btn-color:hover, .btn-color:active, .btn-color:focus {background-color: #ac0e27;color: #fff;}
+.btn-color:hover, .btn-color:active, .btn-color:focus {background-color: #00afd1;color: #fff;}
 .btn-outline-color {color: #0fe1d4;border:2px solid #0fe1d4;background-color: transparent;}
 .btn-outline-color:hover, .btn-outline-color:active, .btn-outline-color:focus {color: #fff;border: 2px solid #0fe1d4;background-color: #0fe1d4;}
 .btn-outline {color: #212121;border:2px solid #e0e0e0;background-color: transparent;}
@@ -3870,7 +3870,7 @@ transition: transform .8s cubic-bezier(.5,.2,.2,.8),-webkit-transform .8s cubic-
 }
 .shop-cart > tbody > tr > td .cart-price {font-size: 14px;}
 .form-coupon .form-control{height: 60px;}
-.form-coupon .form-control:focus{border-color: #ac0e27;-webkit-box-shadow: none;box-shadow: inset none;}
+.form-coupon .form-control:focus{border-color: #00afd1;-webkit-box-shadow: none;box-shadow: inset none;}
 .shop-cart > tbody > tr > td img {max-height: 100px;width: auto;}
 .shop-cart input.input-sm, .shop-cart input.btn-sm {line-height: 35px;width: auto!important;}
 .shop-cart .coupon {float: left!important;}
