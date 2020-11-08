@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\WebAppBD.csproj",
+  "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\WebAppBD.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,303 +14392,303 @@
   "RootNamespace": "WebAppBD",
   "Documents": [
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Records\\Index.cshtml",
-      "TargetPath": "Views\\Records\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Delete.cshtml",
-      "TargetPath": "Views\\ArchiPeliPorTituloes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Shared\\_Content.cshtml",
-      "TargetPath": "Views\\Shared\\_Content.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliDevueltas\\Delete.cshtml",
-      "TargetPath": "Views\\ArchiPeliDevueltas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Roles\\Delete.cshtml",
-      "TargetPath": "Views\\Roles\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Fichas\\Details.cshtml",
-      "TargetPath": "Views\\Fichas\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Socios\\Create.cshtml",
-      "TargetPath": "Views\\Socios\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPrestadas\\Index.cshtml",
-      "TargetPath": "Views\\ArchiPeliPrestadas\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Create.cshtml",
-      "TargetPath": "Views\\ArchiPeliPorTituloes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliDevueltas\\Create.cshtml",
-      "TargetPath": "Views\\ArchiPeliDevueltas\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Inicio\\index.cshtml",
-      "TargetPath": "Views\\Inicio\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Shared\\_Login.cshtml",
-      "TargetPath": "Views\\Shared\\_Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Fichas\\Edit.cshtml",
-      "TargetPath": "Views\\Fichas\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Fichas\\Delete.cshtml",
-      "TargetPath": "Views\\Fichas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Details.cshtml",
-      "TargetPath": "Views\\ArchiPeliPorTituloes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Usuarios\\Index.cshtml",
-      "TargetPath": "Views\\Usuarios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Usuarios\\Edit.cshtml",
-      "TargetPath": "Views\\Usuarios\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliDevueltas\\Edit.cshtml",
-      "TargetPath": "Views\\ArchiPeliDevueltas\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Socios\\Edit.cshtml",
-      "TargetPath": "Views\\Socios\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Roles\\Index.cshtml",
-      "TargetPath": "Views\\Roles\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Socios\\Details.cshtml",
-      "TargetPath": "Views\\Socios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\MovieArchive\\Index.cshtml",
-      "TargetPath": "Views\\MovieArchive\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Edit.cshtml",
-      "TargetPath": "Views\\ArchiPeliPorTituloes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Index.cshtml",
-      "TargetPath": "Views\\ArchiPeliPorTituloes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\forgotPassword\\Index.cshtml",
-      "TargetPath": "Views\\forgotPassword\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiFichaSocios\\Details.cshtml",
-      "TargetPath": "Views\\ArchiFichaSocios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Socios\\Index.cshtml",
-      "TargetPath": "Views\\Socios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Roles\\Edit.cshtml",
-      "TargetPath": "Views\\Roles\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ListaEsperas\\Details.cshtml",
-      "TargetPath": "Views\\ListaEsperas\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Usuarios\\Delete.cshtml",
-      "TargetPath": "Views\\Usuarios\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Roles\\Details.cshtml",
-      "TargetPath": "Views\\Roles\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Register\\Index.cshtml",
-      "TargetPath": "Views\\Register\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Usuarios\\Details.cshtml",
-      "TargetPath": "Views\\Usuarios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliDevueltas\\Details.cshtml",
-      "TargetPath": "Views\\ArchiPeliDevueltas\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiFichaSocios\\Delete.cshtml",
-      "TargetPath": "Views\\ArchiFichaSocios\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Fichas\\Create.cshtml",
-      "TargetPath": "Views\\Fichas\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Fichas\\Index.cshtml",
-      "TargetPath": "Views\\Fichas\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ListaEsperas\\Delete.cshtml",
-      "TargetPath": "Views\\ListaEsperas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Socios\\Delete.cshtml",
-      "TargetPath": "Views\\Socios\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Roles\\Create.cshtml",
-      "TargetPath": "Views\\Roles\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliDevueltas\\Index.cshtml",
-      "TargetPath": "Views\\ArchiPeliDevueltas\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Login\\Index.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Login\\Index.cshtml",
       "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ListaEsperas\\Index.cshtml",
-      "TargetPath": "Views\\ListaEsperas\\Index.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiFichaSocios\\Create.cshtml",
-      "TargetPath": "Views\\ArchiFichaSocios\\Create.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliDevueltas\\Create.cshtml",
+      "TargetPath": "Views\\ArchiPeliDevueltas\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiFichaSocios\\Edit.cshtml",
-      "TargetPath": "Views\\ArchiFichaSocios\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Usuarios\\Details.cshtml",
+      "TargetPath": "Views\\Usuarios\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPrestadas\\Details.cshtml",
-      "TargetPath": "Views\\ArchiPeliPrestadas\\Details.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Roles\\Delete.cshtml",
+      "TargetPath": "Views\\Roles\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ListaEsperas\\Create.cshtml",
-      "TargetPath": "Views\\ListaEsperas\\Create.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Usuarios\\Index.cshtml",
+      "TargetPath": "Views\\Usuarios\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPrestadas\\Create.cshtml",
-      "TargetPath": "Views\\ArchiPeliPrestadas\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPrestadas\\Delete.cshtml",
-      "TargetPath": "Views\\ArchiPeliPrestadas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\Usuarios\\Create.cshtml",
-      "TargetPath": "Views\\Usuarios\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiFichaSocios\\Index.cshtml",
-      "TargetPath": "Views\\ArchiFichaSocios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ArchiPeliPrestadas\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPrestadas\\Edit.cshtml",
       "TargetPath": "Views\\ArchiPeliPrestadas\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Personal\\ESCRITORIO\\Repositories\\VideoTecProject\\WebAppBD\\Views\\ListaEsperas\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Usuarios\\Delete.cshtml",
+      "TargetPath": "Views\\Usuarios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Inicio\\index.cshtml",
+      "TargetPath": "Views\\Inicio\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Delete.cshtml",
+      "TargetPath": "Views\\ArchiPeliPorTituloes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPrestadas\\Details.cshtml",
+      "TargetPath": "Views\\ArchiPeliPrestadas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Socios\\Details.cshtml",
+      "TargetPath": "Views\\Socios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Create.cshtml",
+      "TargetPath": "Views\\ArchiPeliPorTituloes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Edit.cshtml",
+      "TargetPath": "Views\\ArchiPeliPorTituloes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Register\\Index.cshtml",
+      "TargetPath": "Views\\Register\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliDevueltas\\Index.cshtml",
+      "TargetPath": "Views\\ArchiPeliDevueltas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Records\\Index.cshtml",
+      "TargetPath": "Views\\Records\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Socios\\Index.cshtml",
+      "TargetPath": "Views\\Socios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Socios\\Create.cshtml",
+      "TargetPath": "Views\\Socios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ListaEsperas\\Delete.cshtml",
+      "TargetPath": "Views\\ListaEsperas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Shared\\_Login.cshtml",
+      "TargetPath": "Views\\Shared\\_Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Usuarios\\Create.cshtml",
+      "TargetPath": "Views\\Usuarios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliDevueltas\\Edit.cshtml",
+      "TargetPath": "Views\\ArchiPeliDevueltas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Fichas\\Edit.cshtml",
+      "TargetPath": "Views\\Fichas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Fichas\\Index.cshtml",
+      "TargetPath": "Views\\Fichas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Fichas\\Delete.cshtml",
+      "TargetPath": "Views\\Fichas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\MovieArchive\\Index.cshtml",
+      "TargetPath": "Views\\MovieArchive\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiFichaSocios\\Edit.cshtml",
+      "TargetPath": "Views\\ArchiFichaSocios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Usuarios\\Edit.cshtml",
+      "TargetPath": "Views\\Usuarios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Socios\\Edit.cshtml",
+      "TargetPath": "Views\\Socios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Roles\\Create.cshtml",
+      "TargetPath": "Views\\Roles\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Roles\\Index.cshtml",
+      "TargetPath": "Views\\Roles\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ListaEsperas\\Create.cshtml",
+      "TargetPath": "Views\\ListaEsperas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPrestadas\\Create.cshtml",
+      "TargetPath": "Views\\ArchiPeliPrestadas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Shared\\_Content.cshtml",
+      "TargetPath": "Views\\Shared\\_Content.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Index.cshtml",
+      "TargetPath": "Views\\ArchiPeliPorTituloes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\forgotPassword\\Index.cshtml",
+      "TargetPath": "Views\\forgotPassword\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPrestadas\\Delete.cshtml",
+      "TargetPath": "Views\\ArchiPeliPrestadas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPrestadas\\Index.cshtml",
+      "TargetPath": "Views\\ArchiPeliPrestadas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiFichaSocios\\Delete.cshtml",
+      "TargetPath": "Views\\ArchiFichaSocios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ListaEsperas\\Details.cshtml",
+      "TargetPath": "Views\\ListaEsperas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Roles\\Details.cshtml",
+      "TargetPath": "Views\\Roles\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiFichaSocios\\Index.cshtml",
+      "TargetPath": "Views\\ArchiFichaSocios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Roles\\Edit.cshtml",
+      "TargetPath": "Views\\Roles\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Fichas\\Create.cshtml",
+      "TargetPath": "Views\\Fichas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliDevueltas\\Details.cshtml",
+      "TargetPath": "Views\\ArchiPeliDevueltas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Fichas\\Details.cshtml",
+      "TargetPath": "Views\\Fichas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliPorTituloes\\Details.cshtml",
+      "TargetPath": "Views\\ArchiPeliPorTituloes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\Socios\\Delete.cshtml",
+      "TargetPath": "Views\\Socios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ListaEsperas\\Index.cshtml",
+      "TargetPath": "Views\\ListaEsperas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiPeliDevueltas\\Delete.cshtml",
+      "TargetPath": "Views\\ArchiPeliDevueltas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ListaEsperas\\Edit.cshtml",
       "TargetPath": "Views\\ListaEsperas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiFichaSocios\\Details.cshtml",
+      "TargetPath": "Views\\ArchiFichaSocios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\Views\\ArchiFichaSocios\\Create.cshtml",
+      "TargetPath": "Views\\ArchiFichaSocios\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

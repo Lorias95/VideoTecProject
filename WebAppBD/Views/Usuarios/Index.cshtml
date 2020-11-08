@@ -28,10 +28,10 @@
                 Cedula:
             </th>
             <th>
-                Estado:
+                Rol:
             </th>
             <th>
-                Rol:
+                Estado:
             </th>
             <th></th>
         </tr>
@@ -55,10 +55,10 @@
                 @Html.DisplayFor(modelItem => item.Cedula)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Estado)
+                @Html.DisplayFor(modelItem => item.IdRolNavigation.IdRol)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdRolNavigation.IdRol)
+                @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
                 <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |

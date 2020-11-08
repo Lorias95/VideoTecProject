@@ -56,7 +56,7 @@ namespace WebAppBD.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdUsuario,Nombre,Apellido1,Apellido2,Password,Correo,IdPersona,IdRol,Imagen")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("IdUsuario,Nombre,Apellido1,Password,Correo,Cedula,IdRol,Estado")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {

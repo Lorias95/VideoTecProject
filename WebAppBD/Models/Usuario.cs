@@ -5,11 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebAppBD.Models
 {
-    [Table("Usuario", Schema = "bdo")]
+    //[Table("Usuario", Schema = "bdo")]
     public partial class Usuario
     {
         public int IdUsuario { get; set; }
-
 
         public string Nombre { get; set; }
         [Required(ErrorMessage = "Debe digitar el nombre ")]
@@ -24,12 +23,12 @@ namespace WebAppBD.Models
         public int Cedula { get; set; }
         [Required(ErrorMessage = "Debe digitar la cedula ")]
 
+        public int? IdRol { get; set; }
+        [Required(ErrorMessage = "Debe digitar el Rol")]
+
         public string Estado { get; set; }
         [Required(ErrorMessage = "Debe digitar el estado ")]
-        public int? IdRol { get; set; }
-        
 
-        
         public virtual Roles IdRolNavigation { get; set; }
     }
 }
