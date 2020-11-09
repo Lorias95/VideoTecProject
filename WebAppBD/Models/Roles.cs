@@ -12,8 +12,11 @@ namespace WebAppBD.Models
         }
 
         public int IdRol { get; set; }
+
+        [Required(ErrorMessage = "Debe digitar la " +
+        "Descripción")]
         public string Descripcion { get; set; }
-        [Required(ErrorMessage = "Debe digitar la descripcion ")]
+        
 
         public virtual ICollection<Usuario> Usuario { get; set; }
     }

@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Editar lista de espera</h1>
+<h1>Editar Lista de Espera</h1>
 
 <hr />
 <div class="row">
@@ -13,17 +13,17 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdListaEspera" />
             <div class="form-group">
-                <label asp-for="CantidadSocios" class="control-label"></label>
+                <label asp-for="CantidadSocios" class="control-label">Cantidad Socios</label>
                 <input asp-for="CantidadSocios" class="form-control" />
                 <span asp-validation-for="CantidadSocios" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TiempoEspera" class="control-label"></label>
+                <label asp-for="TiempoEspera" class="control-label">Tiempo de Espera</label>
                 <input asp-for="TiempoEspera" class="form-control" />
                 <span asp-validation-for="TiempoEspera" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdFicha" class="control-label"></label>
+                <label asp-for="IdFicha" class="control-label">Id Ficha</label>
                 <select asp-for="IdFicha" class="form-control" asp-items="ViewBag.IdFicha"></select>
                 <span asp-validation-for="IdFicha" class="text-danger"></span>
             </div>
