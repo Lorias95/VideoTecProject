@@ -14,22 +14,22 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdFichaSocio" />
             <div class="form-group">
-                <label asp-for="GeneroFavorito" class="control-label"></label>
+                <label asp-for="GeneroFavorito" class="control-label">Género Favorito</label>
                 <input asp-for="GeneroFavorito" class="form-control" />
                 <span asp-validation-for="GeneroFavorito" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ActoresFavorito" class="control-label"></label>
+                <label asp-for="ActoresFavorito" class="control-label">Actor Favorito</label>
                 <input asp-for="ActoresFavorito" class="form-control" />
                 <span asp-validation-for="ActoresFavorito" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DirectoresFavorito" class="control-label"></label>
+                <label asp-for="DirectoresFavorito" class="control-label">Director Favorito</label>
                 <input asp-for="DirectoresFavorito" class="form-control" />
                 <span asp-validation-for="DirectoresFavorito" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CodigoSocio" class="control-label"></label>
+                <label asp-for="CodigoSocio" class="control-label">Código de Socio</label>
                 <select asp-for="CodigoSocio" class="form-control" asp-items="ViewBag.CodigoSocio"></select>
                 <span asp-validation-for="CodigoSocio" class="text-danger"></span>
             </div>

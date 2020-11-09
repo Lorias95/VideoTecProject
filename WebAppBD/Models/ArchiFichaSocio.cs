@@ -11,21 +11,26 @@ namespace WebAppBD.Models
             Ficha = new HashSet<Ficha>();
         }
 
-        public int IdFichaSocio { get; set; }
         [Required(ErrorMessage = "Debe digitar el ID " +
-            "de la Ficha")]
+        "de Ficha Socio")]
+        public int IdFichaSocio { get; set; }
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Género Favorito")]
         public string GeneroFavorito { get; set; }
-        [Required(ErrorMessage = "Debe digitar el Genero " +
-            "Favorito")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+         "Actor Favorito")]
         public string ActoresFavorito { get; set; }
-        [Required(ErrorMessage = "Debe digitar el Actor " +
-            "Favorito")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Director Favorito")]
         public string DirectoresFavorito { get; set; }
-        [Required(ErrorMessage = "Debe digitar el Director " +
-            "Favorito")]
+
+        [Required(ErrorMessage = "Debe seleccionar " +
+        "el Código de Socio")]
         public int CodigoSocio { get; set; }
-        [Required(ErrorMessage = "Debe digitar el Codigo " +
-            "del Socio")]
+        
 
         public virtual Socio CodigoSocioNavigation { get; set; }
         public virtual ICollection<Ficha> Ficha { get; set; }
