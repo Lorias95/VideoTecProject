@@ -11,31 +11,38 @@ namespace WebAppBD.Models
         {
             Ficha = new HashSet<Ficha>();
         }
-
+        [Required(ErrorMessage = "Debe digitar el " +
+        "ID de Película Devuelta")]
         public int IdPeliDevuelta { get; set; }
-        [Required(ErrorMessage = "Debe digitar el ID " +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar la " +
+        "Fecha de Devolución")]
         public DateTime FechaDevolucion { get; set; }
-        [Required(ErrorMessage = "Debe digitar la fecha de devolucion" +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Título")]
         public string Titulo { get; set; }
-        [Required(ErrorMessage = "Debe digitar el titulo " +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar la " +
+        "Duración")]
         public TimeSpan Duracion { get; set; }
-        [Required(ErrorMessage = "Debe digitar el duracion" +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Número de Cintas")]
         public int NumCintas { get; set; }
-        [Required(ErrorMessage = "Debe digitar el numero de cintas " +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Género")]
         public string Genero { get; set; }
-        [Required(ErrorMessage = "Debe digitar el genero " +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+       "Actor")]
         public string Actores { get; set; }
-        [Required(ErrorMessage = "Debe digitar el actores " +
-        "de la Pelicula")]
+
+        [Required(ErrorMessage = "Debe digitar el " +
+        "Director")]
         public string Directores { get; set; }
-        [Required(ErrorMessage = "Debe digitar el directores" +
-        "de la Pelicula")]
+        
 
         public virtual ICollection<Ficha> Ficha { get; set; }
     }
