@@ -9,17 +9,17 @@
 <p>
     <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
-<table class="table table-striped" color="blue">
+<table class="table table-striped" >
     <thead>
         <tr>
             <th>
-                Cantidad Socios:
+                Cantidad Socios
             </th>
             <th>
-                Tiempo Espera:
+                Tiempo Espera
             </th>
             <th>
-                IdFicha:
+                IdFicha
             </th>
             <th></th>
         </tr>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.IdFichaNavigation.Pelicula)
             </td>
             <td>
-                <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdListaEspera">Edit</a> |
-                <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdListaEspera">Details</a> |
-                <a class="btn btn-danger"   asp-action="Delete" asp-route-id="@item.IdListaEspera">Delete</a>
+                <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdListaEspera">Editar</a> |
+                <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdListaEspera">Detalle</a> |
+                <a class="btn btn-danger"   asp-action="Delete" asp-route-id="@item.IdListaEspera">Eliminar</a>
             </td>
         </tr>
 }

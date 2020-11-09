@@ -9,29 +9,29 @@
 <p>
     <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
-<table class="table-striped">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
-                Fecha Prestamo:
+                Fecha Prestamo
             </th>
             <th>
-                Titulo:
+                Titulo
             </th>
             <th>
-                Duracion:
+                Duracion
             </th>
             <th>
-                Numero Cintas:
+                Numero Cintas
             </th>
             <th>
-                Genero:
+                Genero
             </th>
             <th>
-                Actor:
+                Actor
             </th>
             <th>
-                Director:
+                Director
             </th>
             <th></th>
         </tr>
@@ -62,9 +62,9 @@
                     @Html.DisplayFor(modelItem => item.Directores)
                 </td>
                 <td>
-                    <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdPeliPrestada">Edit</a> |
-                    <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdPeliPrestada">Details</a> |
-                    <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdPeliPrestada">Delete</a>
+                    <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdPeliPrestada">Editar</a> |
+                    <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdPeliPrestada">Detalle</a> |
+                    <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdPeliPrestada">Eliminar</a>
                 </td>
             </tr>
         }

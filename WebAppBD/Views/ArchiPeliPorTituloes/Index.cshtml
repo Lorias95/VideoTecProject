@@ -4,31 +4,31 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Registro peliculas por titulo</h1>
 
 <p>
     <a class="btn btn-primary" asp-action="Create">Nuevo Registro</a>
 </p>
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
-                Titulo:
+                Titulo
             </th>
             <th>
-                Duracion:
+                Duracion
             </th>
             <th>
-                Numero Cintas:
+                Numero Cintas
             </th>
             <th>
-                Genero:
+                Genero
             </th>
             <th>
-                Actor:
+                Actor
             </th>
             <th>
-                Director:
+                Director
             </th>
             <th></th>
         </tr>
@@ -56,9 +56,9 @@
                     @Html.DisplayFor(modelItem => item.Directores)
                 </td>
                 <td>
-                    <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Edit</a> |
-                    <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Details</a> |
-                    <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Delete</a>
+                    <a class="btn btn-success"  asp-action="Edit" asp-route-id="@item.IdPeliPorTitulo">Editar</a> |
+                    <a class="btn btn-warning"  asp-action="Details" asp-route-id="@item.IdPeliPorTitulo">Detalle</a> |
+                    <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdPeliPorTitulo">Eliminar</a>
                 </td>
             </tr>
         }

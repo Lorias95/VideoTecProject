@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                Descripcion:
+                Descripcion
             </th>
             <th></th>
         </tr>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
             <td>
-                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdRol">Edit</a> |
-                <a class="btn btn-warning" asp-action="Details" asp-route-id="@item.IdRol">Details</a> |
-                <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdRol">Delete</a>
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdRol">Editar</a> |
+                <a class="btn btn-warning" asp-action="Details" asp-route-id="@item.IdRol">Detalle</a> |
+                <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.IdRol">Eliminar</a>
             </td>
         </tr>
 }
