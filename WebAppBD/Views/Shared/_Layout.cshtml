@@ -39,9 +39,7 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        @*<a class="collapse-item" asp-area="" asp-controller="Records" asp-action="Index">Records</a>
-                        <a class="collapse-item" asp-area="" asp-controller="MovieArchive" asp-action="Index">MovieArchive</a>*@
+                        <h6 class="collapse-header">Gestión:</h6>
                         <a class="collapse-item" asp-area="" asp-controller="Socios" asp-action="Index">Socios</a>
                         <a class="collapse-item" asp-area="" asp-controller="Fichas" asp-action="Index">Fichas</a>
                         <a class="collapse-item" asp-area="" asp-controller="Roles" asp-action="Index">Roles</a>
@@ -59,11 +57,7 @@
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        @*<a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>*@
+                        <h6 class="collapse-header">Gestión Peli:</h6>
                         <a class="collapse-item" asp-area="" asp-controller="ArchiFichaSocios" asp-action="Index">ArchiFichaSocios</a>
                         <a class="collapse-item" asp-area="" asp-controller="ArchiPeliPrestadas" asp-action="Index">ArchiPeliPrestadas</a>
                         <a class="collapse-item" asp-area="" asp-controller="ArchiPeliDevueltas" asp-action="Index">ArchiPeliDevueltas</a>
@@ -76,7 +70,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>Login</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -84,29 +78,29 @@
                         <a class="collapse-item" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
                         <a class="collapse-item" asp-area="" asp-controller="Register" asp-action="Index">Register</a>
                         <a class="collapse-item" asp-area="" asp-controller="forgotPassword" asp-action="Index">Recuperar Contraseña</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        @*<div class="collapse-divider"></div>
+        <h6 class="collapse-header">Other Pages:</h6>
+        <a class="collapse-item" href="404.html">404 Page</a>
+        <a class="collapse-item" href="blank.html">Blank Page</a>*@
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span>
+                "<a class="collapse-item" asp-area="" asp-controller="Charts" asp-action="Index">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Estadisticas</span>
                 </a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span>
                 </a>
-            </li>
+            </li>-->
         </ul>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
@@ -134,18 +128,6 @@
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                                @*<a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
-                                </a>*@
-                                @*<a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>*@
-                                @*<a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>*@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Index"
                                    data-toggle="modal" data-target="#logoutModal">

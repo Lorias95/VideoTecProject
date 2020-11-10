@@ -22,13 +22,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A630C1FB-452D-45CC-B23C-A22B585A04D2}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/vivianalopezturcios
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WebAppBD\\WebAppBD.csproj
-		SccProjectName1 = WebAppBD
-		SccLocalPath1 = WebAppBD
-	EndGlobalSection
 EndGlobal
