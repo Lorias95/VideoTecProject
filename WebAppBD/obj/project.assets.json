@@ -9620,25 +9620,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Viviana\\.nuget\\packages\\": {},
+    "C:\\Users\\Xinia Aguilar\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\WebAppBD.csproj",
+      "projectUniqueName": "C:\\Users\\Xinia Aguilar\\Documents\\GitHub\\VideoTecProject\\WebAppBD\\WebAppBD.csproj",
       "projectName": "WebAppBD",
-      "projectPath": "C:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\WebAppBD.csproj",
-      "packagesPath": "C:\\Users\\Viviana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Viviana\\source\\repos\\UNA\\WebAppBD\\obj\\",
+      "projectPath": "C:\\Users\\Xinia Aguilar\\Documents\\GitHub\\VideoTecProject\\WebAppBD\\WebAppBD.csproj",
+      "packagesPath": "C:\\Users\\Xinia Aguilar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xinia Aguilar\\Documents\\GitHub\\VideoTecProject\\WebAppBD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Viviana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Xinia Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9720,6 +9720,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9728,7 +9734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,7 +9,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" id="viewAgregar">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label">Nombre</label>
@@ -38,7 +38,9 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Guardar" class="btn btn-primary" />
-                <a class="btn btn-success" asp-action="Index">Atrás</a>
+                <a class="btn btn-success" 
+                   onclick="abrirModal()"
+                   asp-action="Index">Atrás</a>
             </div>
         </form>
     </div>
@@ -51,3 +53,28 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+<script src="~/js/Utilitarios.js"></script>
+<script src="~/js/SweetAlert2.js"></script>
+<script>
+    function abrirModal() {
+        verModal('Guardar Socio', '¿Desea Guardar el Socio?')
+            .then((result) => {
+                if (result.value) {
+                    var viewAgregar = document.getElementById("viewAgregar");
+                    viewAgregar.submit();
+                    Swal.fire(
+                        'Guardado!',
+                        'El socio fue almacenado!.',
+                        'success'
+                    )
+                }
+                else if (result.dismiss === Swal.DismissReason.cancel) {
+                    Swal.fire(
+                        'Cancelado',
+                        'El socio no fué almacenado',
+                        'error'
+                    )
+                }
+            })
+    }
+</script>
