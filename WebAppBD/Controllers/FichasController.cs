@@ -51,7 +51,7 @@ namespace WebAppBD.Controllers
         // GET: Fichas/Create
         public IActionResult Create()
         {
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Codigo_Socio");
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre");
             ViewData["IdFichaSocio"] = new SelectList(_context.ArchiFichaSocio, "IdFichaSocio", "IdFichaSocio");
             ViewData["IdPeliDevuelta"] = new SelectList(_context.ArchiPeliDevueltas, "IdPeliDevuelta", "IdPeliDevuelta");
             ViewData["IdPeliPorTitulo"] = new SelectList(_context.ArchiPeliPorTitulo, "IdPeliPorTitulo", "IdPeliPorTitulo");
@@ -72,7 +72,7 @@ namespace WebAppBD.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Codigo_Socio", ficha.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", ficha.CodigoSocio);
             ViewData["IdFichaSocio"] = new SelectList(_context.ArchiFichaSocio, "IdFichaSocio", "IdFichaSocio", ficha.IdFichaSocio);
             ViewData["IdPeliDevuelta"] = new SelectList(_context.ArchiPeliDevueltas, "IdPeliDevuelta", "IdPeliDevuelta", ficha.IdPeliDevuelta);
             ViewData["IdPeliPorTitulo"] = new SelectList(_context.ArchiPeliPorTitulo, "IdPeliPorTitulo", "IdPeliPorTitulo", ficha.IdPeliPorTitulo);
@@ -93,7 +93,7 @@ namespace WebAppBD.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Codigo_Socio", ficha.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", ficha.CodigoSocio);
             ViewData["IdFichaSocio"] = new SelectList(_context.ArchiFichaSocio, "IdFichaSocio", "IdFichaSocio", ficha.IdFichaSocio);
             ViewData["IdPeliDevuelta"] = new SelectList(_context.ArchiPeliDevueltas, "IdPeliDevuelta", "IdPeliDevuelta", ficha.IdPeliDevuelta);
             ViewData["IdPeliPorTitulo"] = new SelectList(_context.ArchiPeliPorTitulo, "IdPeliPorTitulo", "IdPeliPorTitulo", ficha.IdPeliPorTitulo);
@@ -133,7 +133,7 @@ namespace WebAppBD.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Codigo_Socio", ficha.CodigoSocio);
+            ViewData["CodigoSocio"] = new SelectList(_context.Socio, "Codigo_Socio", "Nombre", ficha.CodigoSocio);
             ViewData["IdFichaSocio"] = new SelectList(_context.ArchiFichaSocio, "IdFichaSocio", "IdFichaSocio", ficha.IdFichaSocio);
             ViewData["IdPeliDevuelta"] = new SelectList(_context.ArchiPeliDevueltas, "IdPeliDevuelta", "IdPeliDevuelta", ficha.IdPeliDevuelta);
             ViewData["IdPeliPorTitulo"] = new SelectList(_context.ArchiPeliPorTitulo, "IdPeliPorTitulo", "IdPeliPorTitulo", ficha.IdPeliPorTitulo);
